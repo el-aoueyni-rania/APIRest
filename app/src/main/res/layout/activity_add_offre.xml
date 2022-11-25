@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddOffre"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/Acode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Code"></EditText>
+
+    <EditText
+        android:id="@+id/Aintitule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Intitulé"
+        ></EditText>
+    <EditText
+        android:id="@+id/Aspecialite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Spécialité"
+        ></EditText>
+    <EditText
+        android:id="@+id/Asociete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Société"
+        ></EditText>
+    <EditText
+        android:id="@+id/Anbposte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de poste"
+        android:inputType="number"
+        ></EditText>
+    <EditText
+        android:id="@+id/Apays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pays"
+        ></EditText>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        ></Button>
+</LinearLayout>
